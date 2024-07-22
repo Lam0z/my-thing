@@ -79,7 +79,9 @@ const toggleIsActive = () => (isActive.value = !isActive.value);
 
     transition: 0.3s ease padding-left;
     &--active {
-        padding-left: 330px;
+        @media (min-width: 576px) {
+            padding-left: 330px;
+        }
     }
 }
 </style>
