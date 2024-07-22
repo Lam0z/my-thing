@@ -75,8 +75,8 @@ const toggleIsActive = () => (isActive.value = !isActive.value);
 }
 .main {
     flex-grow: 1;
+    padding: 20px;
     padding-left: 20px;
-
     transition: 0.3s ease padding-left;
     &--active {
         @media (min-width: 576px) {

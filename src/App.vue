@@ -13,6 +13,10 @@ const navLinks = [
         name: "Buttons",
         href: "/buttons",
     },
+    {
+        name: "Accordion",
+        href: "/accordion",
+    },
 ];
 </script>
 
