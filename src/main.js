@@ -1,7 +1,9 @@
-// import "./assets/main.css";
 import "./assets/base.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import { createApp } from "vue";
+import router from "./router/router";
 import App from "./App.vue";
+const app = createApp(App);
 
-createApp(App).mount("#app");
+app.use(router).mount("#app");
