@@ -17,6 +17,10 @@ const navLinks = [
         name: "Accordion",
         href: "/accordion",
     },
+    {
+        name: "Tabs",
+        href: "/tabs",
+    },
 ];
 </script>
 

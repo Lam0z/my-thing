@@ -7,10 +7,7 @@ import router from "./router/router";
 import App from "./App.vue";
 
 // highlight code library
-import { VCodeBlock } from "@wdns/vue-code-block";
 
 const app = createApp(App);
-
-app.component("VCodeBlock", VCodeBlock);
 
 app.use(router).mount("#app");
