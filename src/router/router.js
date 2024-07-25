@@ -5,6 +5,7 @@ import typography from "@/views/typography.vue";
 import buttons from "@/views/buttons.vue";
 import accordion from "@/views/accordion.vue";
 import tabs from "@/views/tabs.vue";
+import more from "@/views/more.vue";
 
 const routes = [
     { path: "/", component: main },
@@ -12,6 +13,7 @@ const routes = [
     { path: "/buttons", component: buttons },
     { path: "/accordion", component: accordion },
     { path: "/tabs", component: tabs },
+    { path: "/more", component: more },
 ];
 
 const router = createRouter({

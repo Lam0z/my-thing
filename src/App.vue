@@ -21,6 +21,10 @@ const navLinks = [
         name: "Tabs",
         href: "/tabs",
     },
+    {
+        name: "Show more",
+        href: "/more",
+    },
 ];
 </script>
 
