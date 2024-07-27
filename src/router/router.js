@@ -6,6 +6,7 @@ import buttons from "@/views/buttons.vue";
 import accordion from "@/views/accordion.vue";
 import tabs from "@/views/tabs.vue";
 import more from "@/views/more.vue";
+import list from "@/views/list.vue";
 
 const routes = [
     { path: "/", component: main },
@@ -14,6 +15,7 @@ const routes = [
     { path: "/accordion", component: accordion },
     { path: "/tabs", component: tabs },
     { path: "/more", component: more },
+    { path: "/list", component: list },
 ];
 
 const router = createRouter({

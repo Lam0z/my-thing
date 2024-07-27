@@ -26,8 +26,6 @@ const tabsContent = ref([
 const toggleActive = (item) => {
     tabsContent.value.forEach((item) => (item.isActive = false));
     tabsContent.value.find((i) => i.title == item.title).isActive = true;
-    find.isActive = true;
-    console.log(tabsContent.value);
 };
 </script>
 <template>

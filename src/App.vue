@@ -25,6 +25,10 @@ const navLinks = [
         name: "Show more",
         href: "/more",
     },
+    {
+        name: "List",
+        href: "/list",
+    },
 ];
 </script>
 

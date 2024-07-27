@@ -10,7 +10,6 @@ const props = defineProps({
     },
 });
 const selected = (item) => emit("selected", item);
-const switchItems = (idx) => (currentIndex.value = idx);
 </script>
 <template>
     <div class="tabs">
