@@ -7,6 +7,7 @@ import accordion from "@/views/accordion.vue";
 import tabs from "@/views/tabs.vue";
 import more from "@/views/more.vue";
 import list from "@/views/list.vue";
+import todo from "@/views/todo.vue";
 
 const routes = [
     { path: "/", component: main },
@@ -16,6 +17,7 @@ const routes = [
     { path: "/tabs", component: tabs },
     { path: "/more", component: more },
     { path: "/list", component: list },
+    { path: "/todo", component: todo },
 ];
 
 const router = createRouter({
