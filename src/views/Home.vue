@@ -1,9 +1,9 @@
 <script setup>
+import AppButton from "@/components/AppButton.vue";
 import TheTemplate from "@/components/TheTemplate.vue";
 </script>
-
 <template>
-    <p>My thing</p>
+    <TheTemplate><AppButton /> </TheTemplate>
 </template>
 
 <style lang="scss" scoped></style>

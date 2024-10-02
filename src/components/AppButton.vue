@@ -1,6 +1,7 @@
 <script setup></script>
+
 <template>
-    <div></div>
+    <section class="button"><button>BTN</button></section>
 </template>
 
 <style lang="scss" scoped></style>
