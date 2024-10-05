@@ -9,15 +9,34 @@
 body {
     font-family: "Roboto", sans-serif;
 
-    background: $bg;
-    color: white;
+    background: white;
+    color: $text-color;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     // overflow: hidden;
     // overflow-y: scroll;
 }
-
+#app {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 1200px;
+    padding: 1rem;
+    // width: 100%;
+    margin: 0 auto;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.main {
+    flex-grow: 1;
+}
+.container {
+}
 .list-move, /* применять переход к движущимся элементам */
 .list-enter-active,
 .list-leave-active {
@@ -34,4 +53,13 @@ body {
 анимации перемещения могли быть рассчитаны правильно. */
 .list-leave-active {
     position: absolute;
+}
+.v-enter-active,
+.v-leave-active {
+    transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
 }

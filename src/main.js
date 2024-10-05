@@ -1,11 +1,11 @@
 import "./assets/base.scss";
 
 import { createApp } from "vue";
+import { createPinia } from "pinia";
 import router from "./router/router";
 import App from "./App.vue";
 
-// highlight code library
-
+const pinia = createPinia();
 const app = createApp(App);
 
-app.use(router).mount("#app");
+app.use(router).use(pinia).mount("#app");

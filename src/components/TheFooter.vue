@@ -9,6 +9,6 @@
 <style lang="scss" scoped>
 @import "@/assets/vars.scss";
 .footer {
-    outline: 1px solid $bg;
+    // outline: 1px solid $bg;
 }
 </style>
